@@ -8,11 +8,11 @@ class Slider extends Component {
         return (
             <div className="outer_container container_slider jumbotron container-fluid">
                 <div class ="slider_main">
-                    
+
 
                 </div>
 
-                ]
+                
             </div>
 
 
