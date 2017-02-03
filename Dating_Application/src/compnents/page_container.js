@@ -6,7 +6,11 @@ import './App.css';
 class PageContainer extends Component {
     render(){
         return (
-            <div class="container-fluid"></div>
+            <div class="container-fluid">
+
+
+
+            </div>
 
 
 
@@ -16,4 +20,4 @@ class PageContainer extends Component {
     }
 }
 
-export default PageContainer
+export default PageContainer;
