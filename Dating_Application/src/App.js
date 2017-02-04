@@ -3,28 +3,18 @@ import logo from './logo.svg';
 import './App.css';
 
 
+
 class Slider extends Component {
     render(){
         return (
             <div className="outer_container container_slider jumbotron container-fluid">
                 <div class ="slider_main">
-
-
+                    Increasing your mate value in the 21st century.
                 </div>
-
-                
             </div>
-
-
-
         )
-
-
     }
 }
-
-
-
 
 class App extends Component {
   render() {
@@ -32,10 +22,11 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Changing </h2>
+          <h1>This is the main tagline</h1>
+          <h2>Head Shots</h2>
         </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+            <Slider>Test</Slider>
         </p>
       </div>
     );
