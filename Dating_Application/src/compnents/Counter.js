@@ -5,16 +5,25 @@ import ReactDOM from 'react-dom';
 class Counter extends Component {
 
     state = {
-        count: 0
+        count: 1
     };
 
-    render() {
-        return <button onClick={this.increment.bind(this)}>{this.state.count}</button>
+    increment() {
+        this.setState({
+            count: this.state.count + this.props.increment
+        });
     }
 
-    increment() {
-        this.setState({count: this.state.count + this.props.increment});
+    render() {
+        return  (
+            <div>
+            <h1> This is the number of active users counter </h1>
+            <button onClick={this.increment.bind(this)}>{this.state.count}</button>
+        </div>
+        )
     }
+
+
 
 }
 
