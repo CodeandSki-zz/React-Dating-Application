@@ -1,4 +1,4 @@
-/* eslint-disable react-in-jsx-scope */
+
 
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
@@ -30,8 +30,9 @@ class App extends Component {
           <h2>Head Shots</h2>
         </div>
         <p className="App-intro">
-            <Slider>Test</Slider>
-            <Counter></Counter>
+
+            <Counter
+                increment={1}></Counter>
         </p>
       </div>
     );
