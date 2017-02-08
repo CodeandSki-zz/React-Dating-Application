@@ -27,12 +27,11 @@ class App extends Component {
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1>This is the main tagline</h1>
-          <h2>Head Shots</h2>
+          <h2></h2>
         </div>
         <p className="App-intro">
 
-            <Counter
-                increment={1}></Counter>
+            <Counter increment={1}></Counter>
         </p>
       </div>
     );
