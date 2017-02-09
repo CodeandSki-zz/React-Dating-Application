@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import logo from './logo.svg';
 import './App.css';
 import Counter from './compnents/Counter';
+import Input from './compnents/input';
 
 
 
@@ -27,7 +28,7 @@ class App extends Component {
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1>This is the main tagline</h1>
-          <h2></h2>
+          <h2>bad</h2>
         </div>
         <p className="App-intro">
 
