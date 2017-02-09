@@ -3,3 +3,11 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.std-input {
+    height: 50px;
+    width: 12%;
+    border: 2px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}
