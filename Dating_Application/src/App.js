@@ -29,7 +29,10 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1>This is the main tagline</h1>
           <h2>bad</h2>
-          <button>Test Button</button>
+        <div className="row">
+          <button className="col-sm-3 col-sm-push-3">Test Button</button>
+          <button className="col-sm-3 col-sm-push-3">Test Button</button>
+      </div>
         </div>
         <p className="App-intro">
 
