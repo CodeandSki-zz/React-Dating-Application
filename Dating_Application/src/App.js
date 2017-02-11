@@ -4,8 +4,8 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import logo from './logo.svg';
 import './App.css';
-import Counter from './compnents/Counter';
 import Input from './compnents/input';
+import Button from './compnents/button';
 
 
 
@@ -32,7 +32,7 @@ class App extends Component {
         </div>
         <p className="App-intro">
 
-            <Counter increment={1}></Counter>
+            {/* <Counter increment={1}></Counter> */}
         </p>
       </div>
     );
