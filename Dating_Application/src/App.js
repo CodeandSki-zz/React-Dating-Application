@@ -25,22 +25,26 @@ class Slider extends Component {
 class App extends Component {
   render() {
     return (
-     <PageContainer>
+    //  <PageContainer>
+      <div>
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1>This is the main tagline</h1>
           <h2>bad</h2>
 
-        <div className="row">
-          <button className="col-sm-3 col-sm-push-3">Test Button</button>
-          <button className="col-sm-3 col-sm-push-3">Test Button</button>
+        <div className="row top-button-row">
+          <button className="col-sm-3 col-sm-push-3">Photographer login</button>
+          <button className="col-sm-3 col-sm-push-3">Customer Login</button>
        </div>
+       <div className="row bottom-button-row">
+         <button className="col-sm-4 col-sm-push-4">Test Button</button>
+     </div>
         </div>
         <p className="App-intro">
 
             {/* <Counter increment={1}></Counter> */}
         </p>
-    </PageContainer>
+    // </div>
     );
   }
 }
