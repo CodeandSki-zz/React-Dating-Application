@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Button extends Component {
 
     buttonClick() {
-        alert('Button Works');
+        console.log('Button Works');
     }
 
   render() {
