@@ -25,7 +25,7 @@ class Slider extends Component {
 class App extends Component {
   render() {
     return (
-    //  <PageContainer>
+
       <div>
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -44,11 +44,8 @@ class App extends Component {
          <button className="col-sm-4 col-sm-push-4">Test Button</button>
      </div>
         </div>
-        <p className="App-intro">
 
-            {/* <Counter increment={1}></Counter> */}
-        </p>
-    // </div>
+     </div>
     );
   }
 }
