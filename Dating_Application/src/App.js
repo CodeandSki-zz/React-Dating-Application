@@ -36,10 +36,6 @@ class App extends Component {
           <button className="col-sm-3 col-sm-push-3">Photographer login</button>
           <button className="col-sm-3 col-sm-push-3">Customer Login</button>
        </div>
-       <div className="row top-button-row">
-         <button className="col-sm-3 col-sm-push-3">Photographer login</button>
-         <button className="col-sm-3 col-sm-push-3">Customer Login</button>
-      </div>
        <div className="row bottom-button-row">
          <button className="col-sm-4 col-sm-push-4">Test Button</button>
      </div>
