@@ -17,3 +17,8 @@ body {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+
+.page_container {
+    background-color: red;
+}
