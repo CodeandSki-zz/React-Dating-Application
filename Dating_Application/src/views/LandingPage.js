@@ -27,8 +27,9 @@ class App extends Component {
     return (
 
       <div>
-        
+
        <div className="row bottom-button-row">
+         <button className="col-sm-4 col-sm-push-4">Test Button</button>
          <button className="col-sm-4 col-sm-push-4">Test Button</button>
      </div>
         </div>
