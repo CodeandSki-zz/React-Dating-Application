@@ -15,7 +15,7 @@ class Slider extends Component {
         return (
             <div className="outer_container container_slider jumbotron container-fluid">
                 <div className ="slider_main">
-
+                    This is the mian slider
                 </div>
             </div>
         )
