@@ -32,16 +32,16 @@ class App extends Component {
           <h1>This is the main tagline</h1>
           <h2>bad</h2>
 
-        <div className="row top-button-row">
+    <div className="row top-button-row">
           <button className="col-sm-3 col-sm-push-3">Photographer login</button>
           <button className="col-sm-3 col-sm-push-3">Customer Login</button>
 
-       <div className="row bottom-button-row">
+        <div className="row bottom-button-row">
          <button className="col-sm-4 col-sm-push-4">Test Button</button>
-     </div>
         </div>
-
-     </div>
+    </div>
+</div>
+</div>
     );
   }
 }
