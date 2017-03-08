@@ -4,9 +4,8 @@ import FilterCategorysPage from '../views/FilterCategorysPage';
 import * as CategorysActions from '../actions/categorys';
 
 function mapStateToProps(state, props) {
-               const
-                    {
-                        channel,
+               const{
+                    channel,
                               }    = props,
                               filter_categorys = channel.categorys || [],
                               categorys                                          = state.categorys.current.items
