@@ -7,7 +7,7 @@ import './App.css';
 import Input from './compnents/input';
 import Button from './compnents/button';
 import PageContainer from './compnents/page_container';
-
+import routes
 
 
 class Slider extends Component {
@@ -15,6 +15,7 @@ class Slider extends Component {
         return (
             <div className="outer_container container_slider jumbotron container-fluid">
                 <div className ="slider_main">
+                    This is the mian slider
                     This is the mian slider
                 </div>
             </div>
