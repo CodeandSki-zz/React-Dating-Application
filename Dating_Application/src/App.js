@@ -18,6 +18,9 @@ class Slider extends Component {
                     This is the mian slider
                     This is the mian slider
                 </div>
+                <div className ="slider_tertiary">
+
+                </div>
             </div>
         )
     }
