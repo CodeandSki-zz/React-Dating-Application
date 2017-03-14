@@ -7,12 +7,18 @@ import './App.css';
 import Input from './compnents/input';
 import Button from './compnents/button';
 import PageContainer from './compnents/page_container';
+import
 
 
 
 class Slider extends Component {
     render(){
         return (
+            <div className="outer_container container_slider jumbotron container-fluid">
+                <div className ="slider_main">
+                    Increasing your mate value in the 21st century.
+                </div>
+            </div>
             <div className="outer_container container_slider jumbotron container-fluid">
                 <div className ="slider_main">
                     Increasing your mate value in the 21st century.
