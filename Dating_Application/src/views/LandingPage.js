@@ -24,6 +24,7 @@ class Slider extends Component {
                     Increasing your mate value in the 21st century.
                 </div>
             </div>
+            <btn className="btn btn primary">logon</btn>
         )
     }
 }
