@@ -4,24 +4,7 @@ import FilterCategorysPage from '../views/FilterCategorysPage';
 import * as CategorysActions from '../actions/categorys';
 
 function mapStateToProps(state, props) {
-               const{
-                    channel,
-                              }    = props,
-                              filter_categorys = channel.categorys || [],
-                              categorys                                          = state.categorys.current.items
-                                             .filter(category => filter_categorys.indexOf(category.key) != -1)
-                              ,
-                              categorys_videos             = categorys
-                                             .reduce((videos, category) =>
-                                             {
-                                                            if (!category.videos)
-                                                                           return videos;
 
-                                                            category.videos.forEach(video => videos.add(video));
-
-                                                            return videos;
-                                             }, new Set())
-               ;
 
                return {
                               categorys,
