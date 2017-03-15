@@ -9,7 +9,8 @@ export default {
         require.ensure([], function(require) {
             callback(null, [
                 require('routes/LandingPage'),
-                require('routes/Registration'),
+                require('routes/RegistrationPhotographer'),
+                require('routes/RegistrationClient'),
 
 
             ])
