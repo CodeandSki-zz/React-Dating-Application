@@ -9,6 +9,7 @@ export default {
         require.ensure([], function(require) {
             callback(null, [
                 require('routes/LandingPage'),
+                require('routes/Registration'),
 
 
             ])
