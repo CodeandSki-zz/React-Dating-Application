@@ -12,6 +12,7 @@ import
 
 
 class Slider extends Component {
+    console.log(arguments);
     render(){
         return (
             <div className="outer_container container_slider jumbotron container-fluid">
